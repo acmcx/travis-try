@@ -9,6 +9,8 @@ class TestHello(unittest.TestCase):
     def test_goodbye(self):
         self.assertEqual(goodbye(), 2)
 
+    def test_wrong(self):
+        self.assertEqual(hello(), goodbye())
 
 if __name__ == "__main__":
     unittest.main()
