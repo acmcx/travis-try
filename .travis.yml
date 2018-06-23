@@ -6,7 +6,8 @@ python:
     - "3.5"
 
 install:
-    - pip install codecov
+    - pip install codecov coverage
 
 script:
+    - coverage run tests.py
     - codecov -t 2c017e91-c960-468a-9f2c-f4f562b36cfe
