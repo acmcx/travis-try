@@ -1,5 +1,3 @@
-#!/bin/bash
-
 def hello():
     """
     Returns Hello, World!
@@ -11,6 +9,9 @@ def goodbye():
 
 def add_a_test():
     return "I have no tests"
+
+def me_need_test():
+    return 1
 
 if __name__ == "__main__":
     print(hello())

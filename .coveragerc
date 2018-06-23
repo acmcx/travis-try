@@ -1,6 +1,7 @@
 [run]
 branch = False
-source = hello
+source = .
+omit   = *tests*
 
 [report]
 exclude_lines =
