@@ -9,5 +9,5 @@ install:
     - pip install codecov coverage
 
 script:
-    - coverage run tests.py
+    - coverage xml run tests.py
     - codecov -t 2c017e91-c960-468a-9f2c-f4f562b36cfe
