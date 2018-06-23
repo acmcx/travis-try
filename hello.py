@@ -7,7 +7,7 @@ def hello():
     return "Hello, World!"
 
 def goodbye():
-    return 2
+    return 10
 
 if __name__ == "__main__":
     print(hello())
